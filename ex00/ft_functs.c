@@ -6,7 +6,7 @@
 /*   By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/07/26 16:35:49 by pbondoer          #+#    #+#             */
-/*   Updated: 2015/07/26 23:10:07 by pbondoer         ###   ########.fr       */
+/*   Updated: 2015/07/26 23:12:09 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ void	ft_putnbr(int nb)
 	{
 		ft_putchar('-');
 		ft_putnbr(-nb);
+		return ;
 	}
 	if (nb >= 10)
 	{
