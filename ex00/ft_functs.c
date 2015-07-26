@@ -6,7 +6,7 @@
 /*   By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/07/26 16:35:49 by pbondoer          #+#    #+#             */
-/*   Updated: 2015/07/26 22:27:53 by pbondoer         ###   ########.fr       */
+/*   Updated: 2015/07/26 23:10:07 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,6 @@ void	ft_putnbr(int nb)
 	}
 	else
 		ft_putchar(nb + '0');
-}
-
-void	ft_putstr(char *str)
-{
-	while (*str)
-		ft_putchar(*(str++));
 }
 
 int		ft_atoi(char **str)
