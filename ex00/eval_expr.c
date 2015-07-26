@@ -6,7 +6,7 @@
 /*   By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/07/26 15:53:50 by pbondoer          #+#    #+#             */
-/*   Updated: 2015/07/26 23:10:26 by pbondoer         ###   ########.fr       */
+/*   Updated: 2015/07/26 23:35:49 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int		parse_factors(char **expr)
 		else if (op == '*')
 			nbr *= nbr2;
 		else
-			nbr = nbr % nbr2;
+			nbr %= nbr2;
 	}
 	return (nbr);
 }
